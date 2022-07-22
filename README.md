@@ -193,7 +193,7 @@ SOFTWARE.
 [code-quality]: https://lgtm.com/projects/g/klaasnicolaas/python-brussel/context:python
 [commits-shield]: https://img.shields.io/github/commit-activity/y/klaasnicolaas/python-brussel.svg
 [commits-url]: https://github.com/klaasnicolaas/python-brussel/commits/main
-[codecov-shield]: https://codecov.io/gh/klaasnicolaas/python-brussel/branch/main/graph/badge.svg?token=jTIsaqV5x0
+[codecov-shield]: https://codecov.io/gh/klaasnicolaas/python-brussel/branch/main/graph/badge.svg?token=qf9A9Hlk4I
 [codecov-url]: https://codecov.io/gh/klaasnicolaas/python-brussel
 [forks-shield]: https://img.shields.io/github/forks/klaasnicolaas/python-brussel.svg
 [forks-url]: https://github.com/klaasnicolaas/python-brussel/network/members
@@ -202,7 +202,7 @@ SOFTWARE.
 [license-shield]: https://img.shields.io/github/license/klaasnicolaas/python-brussel.svg
 [last-commit-shield]: https://img.shields.io/github/last-commit/klaasnicolaas/python-brussel.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
-[maintainability-shield]: https://api.codeclimate.com/v1/badges/1b4ebe208e72d8f467f9/maintainability
+[maintainability-shield]: https://api.codeclimate.com/v1/badges/b978435e9849ca199fc7/maintainability
 [maintainability-url]: https://codeclimate.com/github/klaasnicolaas/python-brussel/maintainability
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [pypi]: https://pypi.org/project/brussel/
