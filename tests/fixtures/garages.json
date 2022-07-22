@@ -1,0 +1,222 @@
+{
+    "nhits": 24,
+    "parameters": {
+        "dataset": "public-parkings",
+        "rows": 10,
+        "start": 0,
+        "format": "json",
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "public-parkings",
+            "recordid": "cae4f2ccc5fdbfd165355aefc8fe74d00fe1e074",
+            "fields": {
+                "nom_naam": "Monnaie - Munt",
+                "coordonnes_coordinaten": [
+                    50.8503617943,
+                    4.3536430178
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 589
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3536430178,
+                    50.8503617943
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "3eadc53c2a5f66c46923f2dc22602538a258ff0e",
+            "fields": {
+                "nom_naam": "Radisson Blu Hotel",
+                "coordonnes_coordinaten": [
+                    50.8496305,
+                    4.356361800000059
+                ],
+                "proprietaire_beheersmaatschappij": "Radisson Blu Hotel",
+                "nombre_de_places_aantal_plaatsen": 65
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.356361800000059,
+                    50.8496305
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "427df7d211f2f0c5f155917065b61c732ddb0c28",
+            "fields": {
+                "nom_naam": "Toison d'Or - Guldenvlies",
+                "coordonnes_coordinaten": [
+                    50.8372043,
+                    4.359698299999991
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 340
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.359698299999991,
+                    50.8372043
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "c6629381833efe48bb3540f4556b9cdbc5fbfc78",
+            "fields": {
+                "nom_naam": "De Brouckère",
+                "coordonnes_coordinaten": [
+                    50.8509728644,
+                    4.35198135709
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 490
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.35198135709,
+                    50.8509728644
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "6b2cf6f0c4cadb11e032134e4cff648f192ba1b4",
+            "fields": {
+                "nom_naam": "Porte de Hal - Hallepoort",
+                "coordonnes_coordinaten": [
+                    50.83394819999999,
+                    4.349786399999971
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 500
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.349786399999971,
+                    50.83394819999999
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "b0fc92e34b60199b4bd4d8362cdbcd10dd379c35",
+            "fields": {
+                "nom_naam": "Passage 44",
+                "coordonnes_coordinaten": [
+                    50.8525109999,
+                    4.36172277897
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 525
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.36172277897,
+                    50.8525109999
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "c41a69aef24258e56edc5cb65b848d401db6454f",
+            "fields": {
+                "nom_naam": "Royal",
+                "coordonnes_coordinaten": [
+                    50.8489881337,
+                    4.3625972328
+                ],
+                "proprietaire_beheersmaatschappij": "BESIX Park",
+                "nombre_de_places_aantal_plaatsen": 199
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3625972328,
+                    50.8489881337
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "6be680a75e86435fb53c043c573e25f1d52ece90",
+            "fields": {
+                "nom_naam": "Lepage",
+                "coordonnes_coordinaten": [
+                    50.8519516177,
+                    4.34532078984
+                ],
+                "proprietaire_beheersmaatschappij": "Q-Park",
+                "nombre_de_places_aantal_plaatsen": 691
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.34532078984,
+                    50.8519516177
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "5e57e383ef11b8aae2bfb0cded02293cdd886411",
+            "fields": {
+                "nom_naam": "Rouppe - Fontainas",
+                "coordonnes_coordinaten": [
+                    50.8446711,
+                    4.346188699999971
+                ],
+                "proprietaire_beheersmaatschappij": "Hobinvest",
+                "nombre_de_places_aantal_plaatsen": 260
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.346188699999971,
+                    50.8446711
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        },
+        {
+            "datasetid": "public-parkings",
+            "recordid": "65d0653e13d878064f4d0deece1cfc1a813a1a9c",
+            "fields": {
+                "nom_naam": "Alhambra",
+                "coordonnes_coordinaten": [
+                    50.8525102045,
+                    4.35300330961
+                ],
+                "proprietaire_beheersmaatschappij": "Interparking",
+                "nombre_de_places_aantal_plaatsen": 191
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.35300330961,
+                    50.8525102045
+                ]
+            },
+            "record_timestamp": "2019-05-15T12:30:49.414Z"
+        }
+    ]
+}
