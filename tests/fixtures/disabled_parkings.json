@@ -1,0 +1,242 @@
+{
+    "nhits": 877,
+    "parameters": {
+        "dataset": "parking-spaces-for-disabled",
+        "rows": 10,
+        "start": 0,
+        "format": "json",
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "13b70cf5f967267f1ea88d2352ec66d43a841258",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.8422727",
+                "coordinates": [
+                    50.8422727,
+                    4.3736393
+                ],
+                "adres": "Aarlenstraat, 63",
+                "longitude": "4.3736393",
+                "adresse": "Arlon (rue d'), 63"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3736393,
+                    50.8422727
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "f5710507f4d78fff721214212e24bc0e6359e227",
+            "fields": {
+                "nombre_d_emplacements": 2,
+                "latitude": "50.8704161829",
+                "coordinates": [
+                    50.8704161829,
+                    4.36042895397
+                ],
+                "adres": "Antwerpsestw, 447",
+                "longitude": "4.36042895397",
+                "adresse": "Anvers (chée), 447"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.36042895397,
+                    50.8704161829
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "b01df71ae52c11250cb6ec72295087eccf17be3e",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.866671",
+                "coordinates": [
+                    50.866671,
+                    4.357823
+                ],
+                "adres": "Arbeidsstraat, 1",
+                "longitude": "4.357823",
+                "adresse": "Travail (rue du), 1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.357823,
+                    50.866671
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "f21767a528b18c5677807abe3b18af3527638d13",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.890442",
+                "coordinates": [
+                    50.890442,
+                    4.3863496
+                ],
+                "adres": "Beukenootjesstraat, 217",
+                "longitude": "4.3863496",
+                "adresse": "Faînes (rue des), 217"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3863496,
+                    50.890442
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "ab99630b3dd8cf27ccbd8087b2130420092f50f6",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.895312",
+                "coordinates": [
+                    50.895312,
+                    4.372299
+                ],
+                "adres": "Beyseghem, tegenover nr 200",
+                "longitude": "4.372299",
+                "adresse": "Beyseghem, face au 200"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.372299,
+                    50.895312
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "cb63fd2aa934123a46c50d415c9edd1e16af7902",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.9029821",
+                "coordinates": [
+                    50.9029821,
+                    4.386436
+                ],
+                "adres": "Bruynstraat 107",
+                "longitude": "4.386436",
+                "adresse": "Bruyn (rue), 107"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.386436,
+                    50.9029821
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "54ee168ea89d5798838965090a851779f7b038ee",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.8733277589",
+                "coordinates": [
+                    50.8733277589,
+                    4.35682475952
+                ],
+                "adres": "Cipletstraat, 12",
+                "longitude": "4.35682475952",
+                "adresse": "Ciplet (rue de), 12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.35682475952,
+                    50.8733277589
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "df7884c5a34636398661c4dd9c67501aff7cb5c5",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.880762",
+                "coordinates": [
+                    50.880762,
+                    4.341889
+                ],
+                "adres": "Delva E. (straat), 120",
+                "longitude": "4.341889",
+                "adresse": "Delva E. (rue), 120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.341889,
+                    50.880762
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "a02ac9bad1a8e9cf18099ce60c5547cf415d9bb4",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.872019",
+                "coordinates": [
+                    50.872019,
+                    4.346913
+                ],
+                "adres": "Drootbeekstraat, 34",
+                "longitude": "4.346913",
+                "adresse": "Drootbeek (rue), 34"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.346913,
+                    50.872019
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        },
+        {
+            "datasetid": "parking-spaces-for-disabled",
+            "recordid": "303f78cb6d839bf4664f81a09c1bb4acee18bd04",
+            "fields": {
+                "nombre_d_emplacements": 1,
+                "latitude": "50.8813187383",
+                "coordinates": [
+                    50.8813187383,
+                    4.34591584722
+                ],
+                "adres": "Duikerstraat, 50",
+                "longitude": "4.34591584722",
+                "adresse": "Siphon (rue), 50"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.34591584722,
+                    50.8813187383
+                ]
+            },
+            "record_timestamp": "2017-04-04T14:41:15Z"
+        }
+    ]
+}
