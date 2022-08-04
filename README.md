@@ -36,8 +36,8 @@ pip install brussel
 
 You can read the following datasets with this package:
 
-- Parking spaces for disabled / Parkings pour personnes handicapées (877 locations)
-- Public parkings / Parkings publics (24 locations)
+- [Parking spaces for disabled / Parkings pour personnes handicapées][disabled_parkings] (877 locations)
+- [Public parkings / Parkings publics][park_and_rides] (24 locations)
 
 <details>
     <summary>Click here to get more details</summary>
@@ -184,6 +184,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [api]: https://bruxellesdata.opendatasoft.com/explore
+[disabled_parkings]: https://bruxellesdata.opendatasoft.com/explore/dataset/parking-spaces-for-disabled
+[park_and_rides]: https://bruxellesdata.opendatasoft.com/explore/dataset/public-parkings
 [nipkaart]: https://www.nipkaart.nl
 
 <!-- MARKDOWN LINKS & IMAGES -->
