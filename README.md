@@ -1,4 +1,5 @@
-## Python - ODP Brussel Client
+<!-- Banner -->
+![alt Banner of the ODP Brussel package](https://raw.githubusercontent.com/klaasnicolaas/python-brussel/main/assets/header_brussel-min.png)
 
 <!-- PROJECT SHIELDS -->
 [![GitHub Release][releases-shield]][releases]
