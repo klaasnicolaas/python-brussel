@@ -1,4 +1,5 @@
-## Python - ODP Brussel Client
+<!-- Banner -->
+![alt Banner of the ODP Brussel package](https://raw.githubusercontent.com/klaasnicolaas/python-brussel/main/assets/header_brussel-min.png)
 
 <!-- PROJECT SHIELDS -->
 [![GitHub Release][releases-shield]][releases]
@@ -8,17 +9,17 @@
 [![License][license-shield]](LICENSE)
 
 [![GitHub Activity][commits-shield]][commits-url]
-[![Forks][forks-shield]][forks-url]
+[![PyPi Downloads][downloads-shield]][downloads-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GitHub Last Commit][last-commit-shield]][commits-url]
 
 [![Code Quality][code-quality-shield]][code-quality]
-[![Maintainability][maintainability-shield]][maintainability-url]
-[![Code Coverage][codecov-shield]][codecov-url]
-
 [![Build Status][build-shield]][build-url]
 [![Typing Status][typing-shield]][typing-url]
+
+[![Maintainability][maintainability-shield]][maintainability-url]
+[![Code Coverage][codecov-shield]][codecov-url]
 
 Asynchronous Python client for the open datasets of Brussel (Belgium).
 
@@ -191,14 +192,14 @@ SOFTWARE.
 <!-- MARKDOWN LINKS & IMAGES -->
 [build-shield]: https://github.com/klaasnicolaas/python-brussel/actions/workflows/tests.yaml/badge.svg
 [build-url]: https://github.com/klaasnicolaas/python-brussel/actions/workflows/tests.yaml
-[code-quality-shield]: https://img.shields.io/lgtm/grade/python/g/klaasnicolaas/python-brussel.svg?logo=lgtm&logoWidth=18
-[code-quality]: https://lgtm.com/projects/g/klaasnicolaas/python-brussel/context:python
+[code-quality-shield]: https://github.com/klaasnicolaas/python-brussel/actions/workflows/codeql.yaml/badge.svg
+[code-quality]: https://github.com/klaasnicolaas/python-brussel/actions/workflows/codeql.yaml
 [commits-shield]: https://img.shields.io/github/commit-activity/y/klaasnicolaas/python-brussel.svg
 [commits-url]: https://github.com/klaasnicolaas/python-brussel/commits/main
 [codecov-shield]: https://codecov.io/gh/klaasnicolaas/python-brussel/branch/main/graph/badge.svg?token=qf9A9Hlk4I
 [codecov-url]: https://codecov.io/gh/klaasnicolaas/python-brussel
-[forks-shield]: https://img.shields.io/github/forks/klaasnicolaas/python-brussel.svg
-[forks-url]: https://github.com/klaasnicolaas/python-brussel/network/members
+[downloads-shield]: https://img.shields.io/pypi/dm/brussel
+[downloads-url]: https://pypistats.org/packages/brussel
 [issues-shield]: https://img.shields.io/github/issues/klaasnicolaas/python-brussel.svg
 [issues-url]: https://github.com/klaasnicolaas/python-brussel/issues
 [license-shield]: https://img.shields.io/github/license/klaasnicolaas/python-brussel.svg
