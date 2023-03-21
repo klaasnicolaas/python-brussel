@@ -1,6 +1,5 @@
 """Test the models."""
-import aiohttp
-import pytest
+from aiohttp import ClientSession
 from aresponses import ResponsesMockServer
 
 from brussel import DisabledParking, Garage, ODPBrussel
@@ -8,7 +7,6 @@ from brussel import DisabledParking, Garage, ODPBrussel
 from . import load_fixtures
 
 
-@pytest.mark.asyncio
 async def test_all_garages(aresponses: ResponsesMockServer) -> None:
     """Test all garages function."""
     aresponses.add(
@@ -21,7 +19,7 @@ async def test_all_garages(aresponses: ResponsesMockServer) -> None:
             text=load_fixtures("garages.json"),
         ),
     )
-    async with aiohttp.ClientSession() as session:
+    async with ClientSession() as session:
         client = ODPBrussel(session=session)
         spaces: list[Garage] = await client.garages()
         assert spaces is not None
@@ -34,7 +32,6 @@ async def test_all_garages(aresponses: ResponsesMockServer) -> None:
             assert isinstance(item.latitude, float)
 
 
-@pytest.mark.asyncio
 async def test_disabled_parkings(aresponses: ResponsesMockServer) -> None:
     """Test disabled parking spaces function."""
     aresponses.add(
@@ -47,7 +44,7 @@ async def test_disabled_parkings(aresponses: ResponsesMockServer) -> None:
             text=load_fixtures("disabled_parkings.json"),
         ),
     )
-    async with aiohttp.ClientSession() as session:
+    async with ClientSession() as session:
         client = ODPBrussel(session=session)
         spaces: list[DisabledParking] = await client.disabled_parkings()
         assert spaces is not None
