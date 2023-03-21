@@ -5,6 +5,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
 
+import pytz
+
 
 @dataclass
 class Garage:
@@ -21,16 +23,17 @@ class Garage:
     updated_at: datetime
 
     @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> Garage:
+    def from_dict(cls: type[Garage], data: dict[str, Any]) -> Garage:
         """Return a Garage object from a dictionary.
 
         Args:
+        ----
             data: The data from the API.
 
         Returns:
+        -------
             A Garage object.
         """
-
         attr = data["fields"]
         geo = data["geometry"]["coordinates"]
         return cls(
@@ -41,8 +44,9 @@ class Garage:
             longitude=geo[0],
             latitude=geo[1],
             updated_at=datetime.strptime(
-                str(data.get("record_timestamp")), "%Y-%m-%dT%H:%M:%S.%fZ"
-            ),
+                str(data.get("record_timestamp")),
+                "%Y-%m-%dT%H:%M:%S.%fZ",
+            ).astimezone(pytz.utc),
         )
 
 
@@ -60,16 +64,17 @@ class DisabledParking:
     updated_at: datetime
 
     @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> DisabledParking:
+    def from_dict(cls: type[DisabledParking], data: dict[str, Any]) -> DisabledParking:
         """Return a DisabledParking object from a dictionary.
 
         Args:
+        ----
             data: The data from the API.
 
         Returns:
+        -------
             A DisabledParking object.
         """
-
         attr = data["fields"]
         geo = data["geometry"]["coordinates"]
         return cls(
@@ -79,6 +84,7 @@ class DisabledParking:
             longitude=geo[0],
             latitude=geo[1],
             updated_at=datetime.strptime(
-                str(data.get("record_timestamp")), "%Y-%m-%dT%H:%M:%SZ"
-            ),
+                str(data.get("record_timestamp")),
+                "%Y-%m-%dT%H:%M:%SZ",
+            ).astimezone(pytz.utc),
         )
