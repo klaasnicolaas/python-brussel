@@ -11,15 +11,12 @@ async def main() -> None:
     async with ODPBrussel() as client:
         garages = await client.garages(limit=25)
 
-        count: int
-        for index, item in enumerate(garages, 1):
-            count = index
+        count: int = len(garages)
+        for item in garages:
             print(item)
 
         # Count unique id's in disabled_parkings
-        unique_values: list[str] = []
-        for item in garages:
-            unique_values.append(item.garage_id)
+        unique_values: list[str] = [str(item.garage_id) for item in garages]
         num_values = len(set(unique_values))
 
         print("__________________________")
