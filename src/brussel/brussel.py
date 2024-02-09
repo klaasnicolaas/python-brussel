@@ -49,6 +49,7 @@ class ODPBrussel:
             ODPBrusselConnectionError: Timeout occurred while
                 connecting to the Open Data Platform API.
             ODPBrusselError: If the data is not valid.
+
         """
         version = metadata.version(__package__)
         url = URL.build(
@@ -108,6 +109,7 @@ class ODPBrussel:
         Returns:
         -------
             A list of DisabledParking objects.
+
         """
         locations = await self._request(
             "search/",
@@ -125,6 +127,7 @@ class ODPBrussel:
         Returns:
         -------
             A list of Garage objects.
+
         """
         locations = await self._request(
             "search/",
@@ -143,6 +146,7 @@ class ODPBrussel:
         Returns
         -------
             The Open Data Platform Brussel object.
+
         """
         return self
 
@@ -152,5 +156,6 @@ class ODPBrussel:
         Args:
         ----
             _exc_info: Exec type.
+
         """
         await self.close()

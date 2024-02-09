@@ -33,6 +33,7 @@ class Garage:
         Returns:
         -------
             A Garage object.
+
         """
         attr = data["fields"]
         geo = data["geometry"]["coordinates"]
@@ -74,6 +75,7 @@ class DisabledParking:
         Returns:
         -------
             A DisabledParking object.
+
         """
         attr = data["fields"]
         geo = data["geometry"]["coordinates"]
