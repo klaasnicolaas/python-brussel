@@ -1,0 +1,29 @@
+# serializer version: 1
+# name: test_all_garages
+  list([
+    Garage(garage_id='cae4f2ccc5fdbfd165355aefc8fe74d00fe1e074', name='Monnaie - Munt', capacity=589, provider='Interparking', longitude=4.3536430178, latitude=50.8503617943, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='3eadc53c2a5f66c46923f2dc22602538a258ff0e', name='Radisson Blu Hotel', capacity=65, provider='Radisson Blu Hotel', longitude=4.356361800000059, latitude=50.8496305, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='427df7d211f2f0c5f155917065b61c732ddb0c28', name="Toison d'Or - Guldenvlies", capacity=340, provider='Interparking', longitude=4.359698299999991, latitude=50.8372043, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='c6629381833efe48bb3540f4556b9cdbc5fbfc78', name='De Brouckère', capacity=490, provider='Interparking', longitude=4.35198135709, latitude=50.8509728644, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='6b2cf6f0c4cadb11e032134e4cff648f192ba1b4', name='Porte de Hal - Hallepoort', capacity=500, provider='Interparking', longitude=4.349786399999971, latitude=50.83394819999999, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='b0fc92e34b60199b4bd4d8362cdbcd10dd379c35', name='Passage 44', capacity=525, provider='Interparking', longitude=4.36172277897, latitude=50.8525109999, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='c41a69aef24258e56edc5cb65b848d401db6454f', name='Royal', capacity=199, provider='BESIX Park', longitude=4.3625972328, latitude=50.8489881337, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='6be680a75e86435fb53c043c573e25f1d52ece90', name='Lepage', capacity=691, provider='Q-Park', longitude=4.34532078984, latitude=50.8519516177, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='5e57e383ef11b8aae2bfb0cded02293cdd886411', name='Rouppe - Fontainas', capacity=260, provider='Hobinvest', longitude=4.346188699999971, latitude=50.8446711, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+    Garage(garage_id='65d0653e13d878064f4d0deece1cfc1a813a1a9c', name='Alhambra', capacity=191, provider='Interparking', longitude=4.35300330961, latitude=50.8525102045, updated_at=datetime.datetime(2019, 5, 15, 10, 30, 49, 414000, tzinfo=<UTC>)),
+  ])
+# ---
+# name: test_disabled_parkings
+  list([
+    DisabledParking(spot_id='13b70cf5f967267f1ea88d2352ec66d43a841258', number=1, address='Aarlenstraat, 63', longitude=4.3736393, latitude=50.8422727, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='f5710507f4d78fff721214212e24bc0e6359e227', number=2, address='Antwerpsestw, 447', longitude=4.36042895397, latitude=50.8704161829, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='b01df71ae52c11250cb6ec72295087eccf17be3e', number=1, address='Arbeidsstraat, 1', longitude=4.357823, latitude=50.866671, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='f21767a528b18c5677807abe3b18af3527638d13', number=1, address='Beukenootjesstraat, 217', longitude=4.3863496, latitude=50.890442, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='ab99630b3dd8cf27ccbd8087b2130420092f50f6', number=1, address='Beyseghem, tegenover nr 200', longitude=4.372299, latitude=50.895312, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='cb63fd2aa934123a46c50d415c9edd1e16af7902', number=1, address='Bruynstraat 107', longitude=4.386436, latitude=50.9029821, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='54ee168ea89d5798838965090a851779f7b038ee', number=1, address='Cipletstraat, 12', longitude=4.35682475952, latitude=50.8733277589, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='df7884c5a34636398661c4dd9c67501aff7cb5c5', number=1, address='Delva E. (straat), 120', longitude=4.341889, latitude=50.880762, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='a02ac9bad1a8e9cf18099ce60c5547cf415d9bb4', number=1, address='Drootbeekstraat, 34', longitude=4.346913, latitude=50.872019, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+    DisabledParking(spot_id='303f78cb6d839bf4664f81a09c1bb4acee18bd04', number=1, address='Duikerstraat, 50', longitude=4.34591584722, latitude=50.8813187383, updated_at=datetime.datetime(2017, 4, 4, 12, 41, 15, tzinfo=<UTC>)),
+  ])
+# ---
