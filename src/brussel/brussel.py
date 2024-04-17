@@ -114,7 +114,7 @@ class ODPBrussel:
         """
         locations = await self._request(
             "search/",
-            params={"dataset": "parking-spaces-for-disabled", "rows": limit},
+            params={"dataset": "parking-voirie-pmr-ville-de-bruxelles", "rows": limit},
         )
         return [DisabledParking.from_dict(item) for item in locations["records"]]
 
@@ -132,7 +132,7 @@ class ODPBrussel:
         """
         locations = await self._request(
             "search/",
-            params={"dataset": "parkings", "rows": limit},
+            params={"dataset": "bruxelles_parkings_publics", "rows": limit},
         )
         return [Garage.from_dict(item) for item in locations["records"]]
 

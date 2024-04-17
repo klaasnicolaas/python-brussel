@@ -12,7 +12,7 @@ class Garage:
     """Object representing a garage."""
 
     garage_id: str
-    name: str
+    name: dict[str, str]
     capacity: int
     provider: str
 
@@ -38,9 +38,9 @@ class Garage:
         geo = data["geometry"]["coordinates"]
         return cls(
             garage_id=str(data.get("recordid")),
-            name=attr.get("nom_naam"),
-            capacity=attr.get("nombre_de_places_aantal_plaatsen"),
-            provider=attr.get("proprietaire_beheersmaatschappij"),
+            name={lang: attr.get(f"name_{lang}") for lang in ["fr", "nl"]},
+            capacity=attr.get("capacity"),
+            provider=attr.get("operator_fr"),
             longitude=geo[0],
             latitude=geo[1],
             updated_at=datetime.strptime(
@@ -56,7 +56,8 @@ class DisabledParking:
 
     spot_id: str
     number: int
-    address: str
+    orientation: str
+    area: dict[str, str]
 
     longitude: float
     latitude: float
@@ -80,12 +81,17 @@ class DisabledParking:
         geo = data["geometry"]["coordinates"]
         return cls(
             spot_id=str(data.get("recordid")),
-            number=attr.get("nombre_d_emplacements"),
-            address=attr.get("adres"),
+            number=attr.get("evp"),
+            orientation=attr.get("orientation_en"),
+            area={
+                "en": attr.get("area"),
+                "fr": attr.get("zones_fr"),
+                "nl": attr.get("zones_nl"),
+            },
             longitude=geo[0],
             latitude=geo[1],
             updated_at=datetime.strptime(
                 str(data.get("record_timestamp")),
-                "%Y-%m-%dT%H:%M:%SZ",
+                "%Y-%m-%dT%H:%M:%S.%fZ",
             ).replace(tzinfo=UTC),
         )
