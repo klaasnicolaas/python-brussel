@@ -36,8 +36,8 @@ pip install brussel
 
 You can read the following datasets with this package:
 
-- [Parking spaces for disabled / Parkings pour personnes handicapées][disabled_parkings] (877 locations)
-- [Public parkings / Parkings publics][park_and_rides] (24 locations)
+- [Parking spaces for disabled / Parkings pour personnes handicapées][disabled_parkings] (973 locations)
+- [Public parkings / Parkings publics][park_and_rides] (27 locations)
 
 <details>
     <summary>Click here to get more details</summary>
@@ -52,7 +52,8 @@ Parameters:
 | :------- | :--- | :---------- |
 | `spot_id` | int | The ID of the parking spot |
 | `number` | int | How many parking spots there are on this location |
-| `address` | str | The address of the parking spot |
+| `orientation` | str | The orientation of the parking spot |
+| `area` | dict(str) | The area of the parking spot in multiple languages |
 | `longitude` | float | The longitude of the parking spot |
 | `latitude` | float | The latitude of the parking spot |
 | `updated_at` | datetime | The last time the data was updated |
@@ -66,7 +67,7 @@ Parameters:
 | Variable | Type | Description |
 | :------- | :--- | :---------- |
 | `garage_id` | int | The ID of the garage |
-| `name` | string | The name of the garage |
+| `name` | dict(str) | The name of the garage in multiple languages |
 | `capacity` | int | The capacity of the garage |
 | `provider` | string | The organization that manages this garage |
 | `longitude` | float | The longitude of the garage |
@@ -190,8 +191,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [api]: https://bruxellesdata.opendatasoft.com/explore
-[disabled_parkings]: https://bruxellesdata.opendatasoft.com/explore/dataset/parking-spaces-for-disabled
-[park_and_rides]: https://bruxellesdata.opendatasoft.com/explore/dataset/public-parkings
+[disabled_parkings]: https://bruxellesdata.opendatasoft.com/explore/dataset/parking-voirie-pmr-ville-de-bruxelles
+[park_and_rides]: https://bruxellesdata.opendatasoft.com/explore/dataset/bruxelles_parkings_publics
 [nipkaart]: https://www.nipkaart.nl
 
 <!-- MARKDOWN LINKS & IMAGES -->
