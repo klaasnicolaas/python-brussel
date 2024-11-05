@@ -15,6 +15,8 @@ from yarl import URL
 from .exceptions import ODPBrusselConnectionError, ODPBrusselError
 from .models import DisabledParking, Garage
 
+VERSION = metadata.version(__package__)
+
 
 @dataclass
 class ODPBrussel:
@@ -52,7 +54,6 @@ class ODPBrussel:
             ODPBrusselError: If the data is not valid.
 
         """
-        version = metadata.version(__package__)
         url = URL.build(
             scheme="https",
             host="bruxellesdata.opendatasoft.com",
@@ -61,7 +62,7 @@ class ODPBrussel:
 
         headers = {
             "Accept": "application/json",
-            "User-Agent": f"PythonODPBrussel/{version}",
+            "User-Agent": f"PythonODPBrussel/{VERSION}",
         }
 
         if self.session is None:
