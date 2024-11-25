@@ -5,9 +5,9 @@ from .exceptions import ODPBrusselConnectionError, ODPBrusselError
 from .models import DisabledParking, Garage
 
 __all__ = [
+    "DisabledParking",
+    "Garage",
     "ODPBrussel",
     "ODPBrusselConnectionError",
     "ODPBrusselError",
-    "Garage",
-    "DisabledParking",
 ]
