@@ -15,7 +15,7 @@ from yarl import URL
 from .exceptions import ODPBrusselConnectionError, ODPBrusselError
 from .models import DisabledParking, Garage
 
-VERSION: str = metadata.version(__package__)  # ty:ignore[invalid-argument-type]
+VERSION: str = metadata.version("brussel")
 
 
 @dataclass
