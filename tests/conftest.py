@@ -9,7 +9,7 @@ from brussel import ODPBrussel
 
 
 @pytest.fixture(name="odp_brussel_client")
-async def client() -> AsyncGenerator[ODPBrussel, None]:
+async def client() -> AsyncGenerator[ODPBrussel]:
     """Brussel client fixture."""
     async with (
         ClientSession() as session,
